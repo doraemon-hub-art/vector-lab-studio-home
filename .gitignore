@@ -1,0 +1,12 @@
+# VitePress 相关
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# 如果你的文档不在 docs 目录下，请根据实际路径调整
+# .vitepress/dist
+# .vitepress/cache
+
+# 其他常见的忽略项
+node_modules
+.DS_Store
+dist
