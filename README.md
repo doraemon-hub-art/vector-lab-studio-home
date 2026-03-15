@@ -1,6 +1,6 @@
 # vector-lab-studio-home
 
-一个基于Vitepress搭建的产品宣传站。
+一个基于Vitepress + Cloudflare Page搭建的产品宣传站。
 
 # Reference
 
@@ -24,4 +24,10 @@
 
 ---
 
-### 3.14
+### 3.14 - 3.15
+
+- cloudflare部署；
+- 网站基础配置修改；
+- 主站推文发送；
+
+---

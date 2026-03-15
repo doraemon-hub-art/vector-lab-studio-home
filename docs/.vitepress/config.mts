@@ -7,10 +7,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '回到主站', link: 'https://banshengua.top/' }, // 外站必须添加https头
+      { text: '笔记站', link: 'https://doc.banshengua.top/'}
     ],
-
     sidebar: [
       {
         text: 'Examples',
@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/doraemon-hub-art' }
     ]
   }
 })
