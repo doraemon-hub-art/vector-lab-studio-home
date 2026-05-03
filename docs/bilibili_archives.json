@@ -1,0 +1,565 @@
+{
+  "stats": {
+    "total_videos": 62,
+    "classified_count": 36,
+    "ignored_count": 26,
+    "fetch_time": "2026-05-03T04:41:34.765Z",
+    "uid": "94657270",
+    "categories": {
+      "【捡垃圾】": {
+        "count": 8,
+        "total_play_count": 42105,
+        "total_duration": 2840
+      },
+      "【开箱】": {
+        "count": 6,
+        "total_play_count": 128878,
+        "total_duration": 1508
+      },
+      "【CS2】": {
+        "count": 12,
+        "total_play_count": 11848,
+        "total_duration": 2430
+      },
+      "【LOL】": {
+        "count": 1,
+        "total_play_count": 632,
+        "total_duration": 27
+      },
+      "【PUBG】": {
+        "count": 1,
+        "total_play_count": 160,
+        "total_duration": 234
+      },
+      "【工具】": {
+        "count": 1,
+        "total_play_count": 1111,
+        "total_duration": 1639
+      },
+      "【装机】": {
+        "count": 1,
+        "total_play_count": 51071,
+        "total_duration": 410
+      },
+      "【MC】": {
+        "count": 1,
+        "total_play_count": 589,
+        "total_duration": 938
+      },
+      "【堆雪人】": {
+        "count": 1,
+        "total_play_count": 156,
+        "total_duration": 51
+      },
+      "【年度报告】": {
+        "count": 1,
+        "total_play_count": 17,
+        "total_duration": 50
+      },
+      "【Don't give up.】": {
+        "count": 1,
+        "total_play_count": 35,
+        "total_duration": 336
+      },
+      "【CSGO】": {
+        "count": 2,
+        "total_play_count": 256,
+        "total_duration": 180
+      }
+    }
+  },
+  "data": {
+    "【捡垃圾】": [
+      {
+        "aid": 116347107350387,
+        "bvid": "BV1t5DuBaEXd",
+        "title": "【捡垃圾】vivo Pad5 Pro 键盘",
+        "cover": "http://i0.hdslb.com/bfs/archive/71efab6d34c7b79089b90d92c6a92e4105e6acf8.jpg",
+        "duration": 161,
+        "play_count": 1642,
+        "publish_time": 1775316410,
+        "create_time": 1775316410,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 116114507960413,
+        "bvid": "BV1oRfABEEVs",
+        "title": "【捡垃圾】5700X+6750GRE 12G ITX装机",
+        "cover": "http://i2.hdslb.com/bfs/archive/f6af71323546792632f71e7343f8d3cab47d13ac.jpg",
+        "duration": 366,
+        "play_count": 4549,
+        "publish_time": 1771766893,
+        "create_time": 1771766893,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 116058354621981,
+        "bvid": "BV1pqcizoEAM",
+        "title": "【捡垃圾】ATK裂空X1 拆解 + 清理",
+        "cover": "http://i0.hdslb.com/bfs/archive/a425a59909744f541b399db6f237d04a4a497e0c.jpg",
+        "duration": 104,
+        "play_count": 292,
+        "publish_time": 1770910008,
+        "create_time": 1770910008,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115718632774220,
+        "bvid": "BV1sumzBiEbW",
+        "title": "【捡垃圾】KeychronQ11，我的第一把分体式键盘",
+        "cover": "http://i2.hdslb.com/bfs/archive/83961567b206e3942fb29e1796cb82264c36ee33.jpg",
+        "duration": 1264,
+        "play_count": 2548,
+        "publish_time": 1765726354,
+        "create_time": 1765726354,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115599246105527,
+        "bvid": "BV1mjUMBWEap",
+        "title": "【捡垃圾】I5 8500 + Z370P 飞牛OS Nas安装",
+        "cover": "http://i1.hdslb.com/bfs/archive/9124e3152d07e6e7a380f00b79d9a08b6220a103.jpg",
+        "duration": 257,
+        "play_count": 839,
+        "publish_time": 1763904779,
+        "create_time": 1763904779,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114173149191298,
+        "bvid": "BV18HQeY7EF2",
+        "title": "【捡垃圾】罗技G913TKL，我的第一把矮轴",
+        "cover": "http://i0.hdslb.com/bfs/archive/d9ee2ab2c6f6e50fd217f27bf88bfcbad1d1934c.jpg",
+        "duration": 302,
+        "play_count": 17796,
+        "publish_time": 1742144249,
+        "create_time": 1742144249,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 750184454,
+        "bvid": "BV1DC4y1M7vN",
+        "title": "【捡垃圾】宁芝84，我的第一把静电容",
+        "cover": "http://i0.hdslb.com/bfs/archive/48248fb6acdf2750efac336c3c2c4ebe0234f1f9.png",
+        "duration": 335,
+        "play_count": 10500,
+        "publish_time": 1703354202,
+        "create_time": 1703354202,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 674978613,
+        "bvid": "BV1iU4y1E794",
+        "title": "【捡垃圾】260捡的ticwatch s2会翻车吗",
+        "cover": "http://i1.hdslb.com/bfs/archive/539d4e4d3d1a48b553469c6cd836a56b0caf2b0f.jpg",
+        "duration": 51,
+        "play_count": 3939,
+        "publish_time": 1629220000,
+        "create_time": 1629220000,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【开箱】": [
+      {
+        "aid": 116103703436658,
+        "bvid": "BV1TSfVBYEyL",
+        "title": "【开箱】科睿X7PRO开箱 + 戟创M1显示器支架臂安装",
+        "cover": "http://i0.hdslb.com/bfs/archive/b7775cc20281c896dafbf2c2457fd16f1e843e8a.jpg",
+        "duration": 153,
+        "play_count": 1202,
+        "publish_time": 1771602047,
+        "create_time": 1771602047,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115559467325194,
+        "bvid": "BV1DiCdB7EWa",
+        "title": "【开箱】摩刻S10Ultra动感单车",
+        "cover": "http://i2.hdslb.com/bfs/archive/95d7aba1c3d4076f5be85281d26a04e3bb35cf86.jpg",
+        "duration": 494,
+        "play_count": 2167,
+        "publish_time": 1763297629,
+        "create_time": 1763297629,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114568470729703,
+        "bvid": "BV1wCjGz8ENC",
+        "title": "【开箱】WAVE75，我的第一把铝坨坨",
+        "cover": "http://i2.hdslb.com/bfs/archive/596c8ce8ba4e91d3fe14b5195464742e363f093a.jpg",
+        "duration": 303,
+        "play_count": 26899,
+        "publish_time": 1748176392,
+        "create_time": 1748176392,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114501563195325,
+        "bvid": "BV1AdEczzEKm",
+        "title": "【开箱】华为 WATCH GT5 苍山灰",
+        "cover": "http://i1.hdslb.com/bfs/archive/c7feca14923bdd6ce54d2e6fe5ca53d8ffcbc863.jpg",
+        "duration": 230,
+        "play_count": 41036,
+        "publish_time": 1747155454,
+        "create_time": 1747155454,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114403030603380,
+        "bvid": "BV1X8LdzPEm6",
+        "title": "【开箱】AOC Q27G4S 2K 300HZ显示器",
+        "cover": "http://i0.hdslb.com/bfs/archive/9d17e468f91197cb842bd643f6341ef0a85ed7b1.jpg",
+        "duration": 261,
+        "play_count": 26410,
+        "publish_time": 1745652021,
+        "create_time": 1745652021,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 429149769,
+        "bvid": "BV1bG411b7w5",
+        "title": "【开箱】Redmi显示器23.8英寸Pro",
+        "cover": "http://i2.hdslb.com/bfs/archive/2c6dd913f5f04474da6eceb2d0891965ebd6c950.png",
+        "duration": 67,
+        "play_count": 31164,
+        "publish_time": 1659620536,
+        "create_time": 1659620536,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【CS2】": [
+      {
+        "aid": 115711284351839,
+        "bvid": "BV1eEm9BdEjS",
+        "title": "【CS2】我会一次又一次地带你，杀出重围。",
+        "cover": "http://i0.hdslb.com/bfs/archive/9e67d11dc751afecb90d69c59750124aeec3eccc.jpg",
+        "duration": 47,
+        "play_count": 356,
+        "publish_time": 1765614189,
+        "create_time": 1765614189,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115558091595513,
+        "bvid": "BV1MDCDBYE5z",
+        "title": "【CS2】下把起航母了",
+        "cover": "http://i1.hdslb.com/bfs/archive/3a2ac8553442c1c9194a9e2e934731583d3d0a05.jpg",
+        "duration": 81,
+        "play_count": 274,
+        "publish_time": 1763276806,
+        "create_time": 1763276806,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115479507115632,
+        "bvid": "BV1XHyZBbEeH",
+        "title": "【CS2】永恒之火",
+        "cover": "http://i1.hdslb.com/bfs/archive/df731f58985e15bbc74e8a608535ef5e21ce871a.jpg",
+        "duration": 114,
+        "play_count": 358,
+        "publish_time": 1762077626,
+        "create_time": 1762077626,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115396157902855,
+        "bvid": "BV1mpWhz3Evs",
+        "title": "【CS2】小玩一下",
+        "cover": "http://i0.hdslb.com/bfs/archive/bb516366f048b02b49dc8956c21bc1fc1c4b5639.jpg",
+        "duration": 36,
+        "play_count": 161,
+        "publish_time": 1760805647,
+        "create_time": 1760805647,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 115041974096046,
+        "bvid": "BV1s1YkztEwu",
+        "title": "【CS2】^_^",
+        "cover": "http://i1.hdslb.com/bfs/archive/937004a757a4a0c203c5762d241808a79b2aec93.jpg",
+        "duration": 57,
+        "play_count": 400,
+        "publish_time": 1755401439,
+        "create_time": 1755401439,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114963641276792,
+        "bvid": "BV1R3hGzHEqL",
+        "title": "【CS2】我会出手",
+        "cover": "http://i2.hdslb.com/bfs/archive/eb7855ebbb127f9a3a96e35418bf977d619542c0.jpg",
+        "duration": 49,
+        "play_count": 602,
+        "publish_time": 1754206176,
+        "create_time": 1754206176,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114959379863699,
+        "bvid": "BV1HNhNzVEgs",
+        "title": "【CS2】王牌！",
+        "cover": "http://i2.hdslb.com/bfs/archive/a830b2f9506f3cfe47e1bd6b49594302398fda9f.jpg",
+        "duration": 50,
+        "play_count": 213,
+        "publish_time": 1754141137,
+        "create_time": 1754141137,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114915121632379,
+        "bvid": "BV1ZtbdzkEv9",
+        "title": "【CS2】世界突然变得好安静~",
+        "cover": "http://i2.hdslb.com/bfs/archive/a106fabec1b77e5c700bdf43b56bb8bc5a01da56.jpg",
+        "duration": 39,
+        "play_count": 442,
+        "publish_time": 1753465756,
+        "create_time": 1753465756,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114875611225977,
+        "bvid": "BV1nhuSzmEmp",
+        "title": "【CS2】跟兄弟们玩耍一下5E",
+        "cover": "http://i0.hdslb.com/bfs/archive/0db9f28ff9139b7445d1421e096172eda93fe9ce.jpg",
+        "duration": 41,
+        "play_count": 114,
+        "publish_time": 1752862874,
+        "create_time": 1752862874,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114875594445984,
+        "bvid": "BV1KAuDzdENc",
+        "title": "【CS2】来社区服玩玩小刀",
+        "cover": "http://i1.hdslb.com/bfs/archive/fb8db49df2ec9a335d79064bb73b737a2b5a6f4c.jpg",
+        "duration": 29,
+        "play_count": 123,
+        "publish_time": 1752862656,
+        "create_time": 1752862656,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114693964371039,
+        "bvid": "BV1UhNhzcE7K",
+        "title": "【CS2】攻守之势，异也。",
+        "cover": "http://i0.hdslb.com/bfs/archive/bc0a4f4eb58ba2335ad71bf79cdd03b4d771622f.jpg",
+        "duration": 52,
+        "play_count": 486,
+        "publish_time": 1750091140,
+        "create_time": 1750091140,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 114388082106285,
+        "bvid": "BV1wtLazEEnK",
+        "title": "【CS2】9700X+5070 社区服死斗2K分辨率高画质30分钟帧数测试",
+        "cover": "http://i1.hdslb.com/bfs/archive/ffc716a4ee54e30a74336825c987986b68a76d31.jpg",
+        "duration": 1835,
+        "play_count": 8319,
+        "publish_time": 1745423882,
+        "create_time": 1745423882,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【LOL】": [
+      {
+        "aid": 115515108430990,
+        "bvid": "BV14v1XBuEGV",
+        "title": "【LOL】蓄意小拳",
+        "cover": "http://i2.hdslb.com/bfs/archive/e3b0b65cc67b0b3bce5d57ee2fac213a28643c91.jpg",
+        "duration": 27,
+        "play_count": 632,
+        "publish_time": 1762620825,
+        "create_time": 1762620825,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【PUBG】": [
+      {
+        "aid": 115400603867784,
+        "bvid": "BV19gsNz7EBf",
+        "title": "【PUBG】臻基把、烩玩",
+        "cover": "http://i0.hdslb.com/bfs/archive/0f23bfe07f6bfe8619bdea88330c539740236625.jpg",
+        "duration": 234,
+        "play_count": 160,
+        "publish_time": 1760873784,
+        "create_time": 1760873784,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【工具】": [
+      {
+        "aid": 115338578566577,
+        "bvid": "BV1eVxiz6Evg",
+        "title": "【工具】MarkDown的入门指北",
+        "cover": "http://i1.hdslb.com/bfs/archive/1982f85f20d90903ac48a5ac18d260f45bb9c58a.jpg",
+        "duration": 1639,
+        "play_count": 1111,
+        "publish_time": 1759927243,
+        "create_time": 1759927243,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【装机】": [
+      {
+        "aid": 114453999787882,
+        "bvid": "BV1vRVqz7Eay",
+        "title": "【装机】9700X+5070装机",
+        "cover": "http://i2.hdslb.com/bfs/archive/a71b909892cab786438b7974db418f9ca40f212e.jpg",
+        "duration": 410,
+        "play_count": 51071,
+        "publish_time": 1746429579,
+        "create_time": 1746429579,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【MC】": [
+      {
+        "aid": 113969138242268,
+        "bvid": "BV19hNLevEK3",
+        "title": "【MC】简单的MC联机服务器搭建，并通过权限控制插件实现非OP权限TP",
+        "cover": "http://i0.hdslb.com/bfs/archive/51a7e2c40f41fa3d6f90d805b67a172e35fb1725.jpg",
+        "duration": 938,
+        "play_count": 589,
+        "publish_time": 1739033602,
+        "create_time": 1739033602,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【堆雪人】": [
+      {
+        "aid": 599272198,
+        "bvid": "BV1mB4y1z7GV",
+        "title": "【堆雪人】雪堆冰墩墩",
+        "cover": "http://i2.hdslb.com/bfs/archive/a9673b5d96365ede541ed1459b85fabe1103733a.png",
+        "duration": 51,
+        "play_count": 156,
+        "publish_time": 1659884910,
+        "create_time": 1659884910,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【年度报告】": [
+      {
+        "aid": 295305816,
+        "bvid": "BV1FF411q7vU",
+        "title": "【年度报告】快乐的威猛先生的2021时光机",
+        "cover": "http://i2.hdslb.com/bfs/archive/084d72df3ef6deca64ab5750687d9c20381e32fe.jpg",
+        "duration": 50,
+        "play_count": 17,
+        "publish_time": 1640931776,
+        "create_time": 1640931776,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【Don't give up.】": [
+      {
+        "aid": 799511237,
+        "bvid": "BV1Xy4y1a7Fg",
+        "title": "【Don't give up.】当你想要放弃时，希望你能看看这个。（中文字幕）",
+        "cover": "http://i0.hdslb.com/bfs/archive/f9bbcdb94869908ed8ea68eee4e94c4fa156015e.jpg",
+        "duration": 336,
+        "play_count": 35,
+        "publish_time": 1615536514,
+        "create_time": 1615536514,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【CSGO】": [
+      {
+        "aid": 204469646,
+        "bvid": "BV11h411k7xX",
+        "title": "【CSGO】【Sakula】矜持一点，晚点再看",
+        "cover": "http://i0.hdslb.com/bfs/archive/8906f618ece9066bde9e4eb5a4a10f85216feefd.jpg",
+        "duration": 55,
+        "play_count": 45,
+        "publish_time": 1614353853,
+        "create_time": 1614353853,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 927749230,
+        "bvid": "BV1tK4y1Z7QH",
+        "title": "【CSGO】【白银局能有多燃】Don't leave me on my own---《有为青年》",
+        "cover": "http://i1.hdslb.com/bfs/archive/f07386390be02c1a3c9f6830440028b1b31edbcc.jpg",
+        "duration": 125,
+        "play_count": 211,
+        "publish_time": 1604966855,
+        "create_time": 1604966855,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ]
+  }
+}
