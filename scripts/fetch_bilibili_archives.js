@@ -22,7 +22,7 @@ const DEFAULT_UID = '94657270';
 const API_BASE_URL = 'uapis.cn';
 const API_PATH = '/api/v1/social/bilibili/archives';
 const PAGE_SIZE = 50; // 每页获取50条，减少请求次数
-const OUTPUT_FILE = path.join(__dirname, '..', 'docs', 'bilibili_archives.json');
+const OUTPUT_FILE = path.join(__dirname, '..', '', 'bilibili_archives.json');
 
 /**
  * 发送HTTP GET请求

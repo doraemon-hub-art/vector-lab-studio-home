@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 捡垃圾
+title: 工具
 ---
 
 <script setup>
 import archives from '../bilibili_archives.json'
 
-const junkVideos = (archives.data['【捡垃圾】'] || []).map(v => ({
+const toolVideos = (archives.data['【工具】'] || []).map(v => ({
   date: v.publish_time,
   title: v.title,
   desc: `播放量: ${v.play_count.toLocaleString()}`,
@@ -15,19 +15,19 @@ const junkVideos = (archives.data['【捡垃圾】'] || []).map(v => ({
 }))
 </script>
 
-<div class="junk-page">
-  <h1>🗑️ 捡垃圾</h1>
-  <p class="subtitle">记录各种二手好物、数码淘货的经历与心得。</p>
-  <Timeline :items="junkVideos" />
+<div class="tools-page">
+  <h1>🔧 工具</h1>
+  <p class="subtitle">各种实用工具的使用心得与教程。</p>
+  <Timeline :items="toolVideos" />
 </div>
 
 <style>
-.junk-page {
+.tools-page {
   max-width: 860px;
   margin: 0 auto;
   padding: 3rem 1.5rem 5rem;
 }
-.junk-page h1 {
+.tools-page h1 {
   font-size: 2rem;
   margin-bottom: 0.4rem;
 }

@@ -1,30 +1,9 @@
-<template>
-  <div class="timeline">
-    <div v-for="(item, index) in items" :key="index" class="timeline-item">
-      <div class="timeline-left">
-        <div class="timeline-date">{{ item.date }}</div>
-        <div class="timeline-line">
-          <div class="timeline-dot"></div>
-        </div>
-      </div>
-      <a :href="item.videoUrl" target="_blank" rel="noopener" class="timeline-card">
-        <img v-if="item.cover" :src="item.cover" :alt="item.title" class="timeline-cover" />
-        <div class="timeline-info">
-          <div class="timeline-title">{{ item.title }}</div>
-          <div v-if="item.desc" class="timeline-desc">{{ item.desc }}</div>
-          <div class="timeline-platform">
-            <span class="platform-tag bilibili">📺 哔哩哔哩</span>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
-defineProps<{
+import { computed } from 'vue'
+
+const props = defineProps<{
   items: {
-    date: string
+    date: string | number
     title: string
     desc?: string
     cover?: string
@@ -33,7 +12,40 @@ defineProps<{
     bvid?: string
   }[]
 }>()
+
+function formatDate(date: string | number): string {
+  // 如果是数字（秒级时间戳），格式化为 YYYY-MM-DD
+  if (typeof date === 'number') {
+    const d = new Date(date * 1000)
+    const y = d.getFullYear()
+    const m = String(d.getMonth() + 1).padStart(2, '0')
+    const day = String(d.getDate()).padStart(2, '0')
+    return `${y}-${m}-${day}`
+  }
+  return date
+}
 </script>
+
+<template>
+  <div class="timeline">
+    <div v-for="(item, index) in items" :key="index" class="timeline-item">
+      <div class="timeline-left">
+        <div class="timeline-date">{{ formatDate(item.date) }}</div>
+        <div class="timeline-line">
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+      <a :href="item.videoUrl" target="_blank" rel="noopener" class="timeline-card">
+        <img v-if="item.cover" :src="item.cover" :alt="item.title" referrerpolicy="no-referrer" class="timeline-cover" />
+        <div class="timeline-info">
+          <div class="timeline-title">{{ item.title }}</div>
+          <div v-if="item.desc" class="timeline-desc">{{ item.desc }}</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</template>
+
 
 <style scoped>
 .timeline {
@@ -128,14 +140,6 @@ defineProps<{
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.platform-tag {
-  font-size: 0.75rem;
-  padding: 2px 8px;
-  border-radius: 20px;
-  background: var(--vp-c-blue-soft);
-  color: var(--vp-c-blue-1);
-}
-
 @media (max-width: 640px) {
   .timeline-card { flex-direction: column; }
   .timeline-cover { width: 100%; height: auto; }

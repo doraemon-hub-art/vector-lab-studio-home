@@ -9,7 +9,7 @@ title: 放映室
     <span>💻 技术</span>
   </div>
   <div class="channel-grid">
-    <ChannelCard icon="🚧" title="技术专栏 A" desc="敬请期待" :comingSoon="true" />
+    <ChannelCard icon="🔧" title="工具" desc="实用工具的使用心得与教程" link="/tools" />
     <ChannelCard icon="🚧" title="技术专栏 B" desc="敬请期待" :comingSoon="true" />
     <ChannelCard icon="🚧" title="技术专栏 C" desc="敬请期待" :comingSoon="true" />
   </div>

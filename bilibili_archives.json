@@ -1,25 +1,25 @@
 {
   "stats": {
     "total_videos": 62,
-    "classified_count": 36,
-    "ignored_count": 26,
-    "fetch_time": "2026-05-03T04:41:34.765Z",
+    "classified_count": 35,
+    "ignored_count": 27,
+    "fetch_time": "2026-05-03T05:54:18.809Z",
     "uid": "94657270",
     "categories": {
       "【捡垃圾】": {
         "count": 8,
-        "total_play_count": 42105,
+        "total_play_count": 42108,
         "total_duration": 2840
       },
       "【开箱】": {
         "count": 6,
-        "total_play_count": 128878,
+        "total_play_count": 128887,
         "total_duration": 1508
       },
       "【CS2】": {
-        "count": 12,
-        "total_play_count": 11848,
-        "total_duration": 2430
+        "count": 11,
+        "total_play_count": 3529,
+        "total_duration": 595
       },
       "【LOL】": {
         "count": 1,
@@ -38,7 +38,7 @@
       },
       "【装机】": {
         "count": 1,
-        "total_play_count": 51071,
+        "total_play_count": 51072,
         "total_duration": 410
       },
       "【MC】": {
@@ -51,20 +51,15 @@
         "total_play_count": 156,
         "total_duration": 51
       },
-      "【年度报告】": {
-        "count": 1,
-        "total_play_count": 17,
-        "total_duration": 50
-      },
-      "【Don't give up.】": {
-        "count": 1,
-        "total_play_count": 35,
-        "total_duration": 336
-      },
       "【CSGO】": {
-        "count": 2,
-        "total_play_count": 256,
-        "total_duration": 180
+        "count": 3,
+        "total_play_count": 496,
+        "total_duration": 313
+      },
+      "【建议改成】": {
+        "count": 1,
+        "total_play_count": 87,
+        "total_duration": 23
       }
     }
   },
@@ -89,7 +84,7 @@
         "title": "【捡垃圾】5700X+6750GRE 12G ITX装机",
         "cover": "http://i2.hdslb.com/bfs/archive/f6af71323546792632f71e7343f8d3cab47d13ac.jpg",
         "duration": 366,
-        "play_count": 4549,
+        "play_count": 4552,
         "publish_time": 1771766893,
         "create_time": 1771766893,
         "state": 0,
@@ -130,7 +125,7 @@
         "duration": 257,
         "play_count": 839,
         "publish_time": 1763904779,
-        "create_time": 1763904779,
+        "create_time": 1763904780,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -182,7 +177,7 @@
         "title": "【开箱】科睿X7PRO开箱 + 戟创M1显示器支架臂安装",
         "cover": "http://i0.hdslb.com/bfs/archive/b7775cc20281c896dafbf2c2457fd16f1e843e8a.jpg",
         "duration": 153,
-        "play_count": 1202,
+        "play_count": 1203,
         "publish_time": 1771602047,
         "create_time": 1771602047,
         "state": 0,
@@ -208,7 +203,7 @@
         "title": "【开箱】WAVE75，我的第一把铝坨坨",
         "cover": "http://i2.hdslb.com/bfs/archive/596c8ce8ba4e91d3fe14b5195464742e363f093a.jpg",
         "duration": 303,
-        "play_count": 26899,
+        "play_count": 26902,
         "publish_time": 1748176392,
         "create_time": 1748176392,
         "state": 0,
@@ -221,7 +216,7 @@
         "title": "【开箱】华为 WATCH GT5 苍山灰",
         "cover": "http://i1.hdslb.com/bfs/archive/c7feca14923bdd6ce54d2e6fe5ca53d8ffcbc863.jpg",
         "duration": 230,
-        "play_count": 41036,
+        "play_count": 41038,
         "publish_time": 1747155454,
         "create_time": 1747155454,
         "state": 0,
@@ -234,7 +229,7 @@
         "title": "【开箱】AOC Q27G4S 2K 300HZ显示器",
         "cover": "http://i0.hdslb.com/bfs/archive/9d17e468f91197cb842bd643f6341ef0a85ed7b1.jpg",
         "duration": 261,
-        "play_count": 26410,
+        "play_count": 26413,
         "publish_time": 1745652021,
         "create_time": 1745652021,
         "state": 0,
@@ -277,7 +272,7 @@
         "duration": 81,
         "play_count": 274,
         "publish_time": 1763276806,
-        "create_time": 1763276806,
+        "create_time": 1763276807,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -303,7 +298,7 @@
         "duration": 36,
         "play_count": 161,
         "publish_time": 1760805647,
-        "create_time": 1760805647,
+        "create_time": 1760805648,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -329,7 +324,7 @@
         "duration": 49,
         "play_count": 602,
         "publish_time": 1754206176,
-        "create_time": 1754206176,
+        "create_time": 1754206177,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -398,19 +393,6 @@
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
-      },
-      {
-        "aid": 114388082106285,
-        "bvid": "BV1wtLazEEnK",
-        "title": "【CS2】9700X+5070 社区服死斗2K分辨率高画质30分钟帧数测试",
-        "cover": "http://i1.hdslb.com/bfs/archive/ffc716a4ee54e30a74336825c987986b68a76d31.jpg",
-        "duration": 1835,
-        "play_count": 8319,
-        "publish_time": 1745423882,
-        "create_time": 1745423882,
-        "state": 0,
-        "is_ugc_pay": 0,
-        "is_interactive": false
       }
     ],
     "【LOL】": [
@@ -437,7 +419,7 @@
         "duration": 234,
         "play_count": 160,
         "publish_time": 1760873784,
-        "create_time": 1760873784,
+        "create_time": 1760873785,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -465,7 +447,7 @@
         "title": "【装机】9700X+5070装机",
         "cover": "http://i2.hdslb.com/bfs/archive/a71b909892cab786438b7974db418f9ca40f212e.jpg",
         "duration": 410,
-        "play_count": 51071,
+        "play_count": 51072,
         "publish_time": 1746429579,
         "create_time": 1746429579,
         "state": 0,
@@ -503,46 +485,16 @@
         "is_interactive": false
       }
     ],
-    "【年度报告】": [
-      {
-        "aid": 295305816,
-        "bvid": "BV1FF411q7vU",
-        "title": "【年度报告】快乐的威猛先生的2021时光机",
-        "cover": "http://i2.hdslb.com/bfs/archive/084d72df3ef6deca64ab5750687d9c20381e32fe.jpg",
-        "duration": 50,
-        "play_count": 17,
-        "publish_time": 1640931776,
-        "create_time": 1640931776,
-        "state": 0,
-        "is_ugc_pay": 0,
-        "is_interactive": false
-      }
-    ],
-    "【Don't give up.】": [
-      {
-        "aid": 799511237,
-        "bvid": "BV1Xy4y1a7Fg",
-        "title": "【Don't give up.】当你想要放弃时，希望你能看看这个。（中文字幕）",
-        "cover": "http://i0.hdslb.com/bfs/archive/f9bbcdb94869908ed8ea68eee4e94c4fa156015e.jpg",
-        "duration": 336,
-        "play_count": 35,
-        "publish_time": 1615536514,
-        "create_time": 1615536514,
-        "state": 0,
-        "is_ugc_pay": 0,
-        "is_interactive": false
-      }
-    ],
     "【CSGO】": [
       {
-        "aid": 204469646,
-        "bvid": "BV11h411k7xX",
-        "title": "【CSGO】【Sakula】矜持一点，晚点再看",
-        "cover": "http://i0.hdslb.com/bfs/archive/8906f618ece9066bde9e4eb5a4a10f85216feefd.jpg",
-        "duration": 55,
-        "play_count": 45,
-        "publish_time": 1614353853,
-        "create_time": 1614353853,
+        "aid": 331677389,
+        "bvid": "BV1RA411T7gp",
+        "title": "【CSGO】学 完 这 五 步，直 接 去 天 禄。",
+        "cover": "http://i1.hdslb.com/bfs/archive/4344f2c1204620ee971afd8cfc8922654672e3cf.jpg",
+        "duration": 63,
+        "play_count": 74,
+        "publish_time": 1613572782,
+        "create_time": 1613572782,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
@@ -556,6 +508,34 @@
         "play_count": 211,
         "publish_time": 1604966855,
         "create_time": 1604966855,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      },
+      {
+        "aid": 927749230,
+        "bvid": "BV1tK4y1Z7QH",
+        "title": "【CSGO】【白银局能有多燃】Don't leave me on my own---《有为青年》",
+        "cover": "http://i1.hdslb.com/bfs/archive/f07386390be02c1a3c9f6830440028b1b31edbcc.jpg",
+        "duration": 125,
+        "play_count": 211,
+        "publish_time": 1604966855,
+        "create_time": 1604966855,
+        "state": 0,
+        "is_ugc_pay": 0,
+        "is_interactive": false
+      }
+    ],
+    "【建议改成】": [
+      {
+        "aid": 756365742,
+        "bvid": "BV1Gr4y1K7f3",
+        "title": "【建议改成】 土 卡 块 卡",
+        "cover": "http://i2.hdslb.com/bfs/archive/710f8a85b259947262c52762c0964e5517163626.jpg",
+        "duration": 23,
+        "play_count": 87,
+        "publish_time": 1611237364,
+        "create_time": 1611237364,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
