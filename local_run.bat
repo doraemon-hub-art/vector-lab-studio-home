@@ -38,12 +38,11 @@ if not exist "node_modules" (
     echo.
 )
 
-:: 检查 vitepress 是否可用
-call npx vitepress --version >nul 2>&1
-if errorlevel 1 (
+:: 检查 vitepress 是否已安装（直接判断目录，不要用 npx/--version 探测：此版本会拉起 dev server 卡死）
+if not exist "node_modules\vitepress" (
     echo [INFO] 未检测到 VitePress，正在安装...
     echo.
-    call npm install vitepress
+    call npm install
     if errorlevel 1 (
         echo [ERROR] VitePress 安装失败，请检查网络或 npm 配置。
         pause
@@ -78,14 +77,14 @@ if "%orderby%"=="" set orderby=pubdate
 echo.
 echo [INFO] 正在获取数据，请稍候...
 echo.
-node scripts/fetch_bilibili_archives.js %uid% %keywords% %orderby%
+node scripts/fetch_bilibili_archives.js "%uid%" "%keywords%" "%orderby%"
 
 if errorlevel 1 (
     echo.
     echo [ERROR] 获取失败，请检查网络连接或UID是否正确。
 ) else (
     echo.
-    echo [INFO] 获取完成！结果已保存到 docs/bilibili_archives.json
+    echo [INFO] 获取完成！结果已保存到仓库根目录 bilibili_archives.json
 )
 
 goto end

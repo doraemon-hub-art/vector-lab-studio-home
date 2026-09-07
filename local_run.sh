@@ -21,11 +21,12 @@ run_vitepress() {
         echo ""
     fi
 
-    # 检查 vitepress 是否可用
-    if ! npx vitepress --version > /dev/null 2>&1; then
+    # 检查 vitepress 是否已安装（直接判断目录，不要用 npx/--version 探测：
+    # 此版本 vitepress 的 --version 会直接拉起 dev server 导致脚本卡死）
+    if [ ! -d node_modules/vitepress ]; then
         echo "[INFO] 未检测到 VitePress，正在安装..."
         echo ""
-        npm install vitepress
+        npm install
         if [ $? -ne 0 ]; then
             echo "[ERROR] VitePress 安装失败，请检查网络或 npm 配置。"
             exit 1
@@ -71,7 +72,7 @@ run_bilibili() {
         echo "[ERROR] 获取失败，请检查网络连接或UID是否正确。"
     else
         echo ""
-        echo "[INFO] 获取完成！结果已保存到 docs/bilibili_archives.json"
+        echo "[INFO] 获取完成！结果已保存到仓库根目录 bilibili_archives.json"
     fi
 
     echo ""

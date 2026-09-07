@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total_videos": 76,
-    "classified_count": 41,
+    "total_videos": 75,
+    "classified_count": 40,
     "ignored_count": 35,
     "fetch_time": "2026-09-07T16:18:24.491Z",
     "uid": "94657270",
@@ -70,11 +70,6 @@
         "count": 1,
         "total_play_count": 87,
         "total_duration": 23
-      },
-      "【牛码碎碎念】": {
-        "count": 1,
-        "total_play_count": 6666,
-        "total_duration": 233
       }
     }
   },
@@ -620,21 +615,6 @@
         "play_count": 87,
         "publish_time": 1611237364,
         "create_time": 1611237364,
-        "state": 0,
-        "is_ugc_pay": 0,
-        "is_interactive": false
-      }
-    ],
-    "【牛码碎碎念】": [
-      {
-        "aid": 0,
-        "bvid": "BV1TEST00000",
-        "title": "【牛码碎碎念】占位视频 · 看看这个栏目的排版效果",
-        "cover": "http://i2.hdslb.com/bfs/archive/a71b909892cab786438b7974db418f9ca40f212e.jpg",
-        "duration": 233,
-        "play_count": 6666,
-        "publish_time": 1788798733,
-        "create_time": 1788798733,
         "state": 0,
         "is_ugc_pay": 0,
         "is_interactive": false
