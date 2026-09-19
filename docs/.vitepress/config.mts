@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '放映室', link: '/studio' },
+      { text: '个人项目', link: '/projects' },
       { text: '回到主站', link: 'https://banshengua.top/' }, // 外站必须添加https头
       { text: '笔记站', link: 'https://doc.banshengua.top/'}
     ],

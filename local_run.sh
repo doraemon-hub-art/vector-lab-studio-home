@@ -38,7 +38,8 @@ run_vitepress() {
 
     echo "[INFO] 正在启动 VitePress 开发服务器..."
     echo ""
-    npm run docs:dev
+    # --host: 监听 0.0.0.0，局域网其他设备才能访问（不加只绑 127.0.0.1，仅本机可开）
+    npm run docs:dev -- --host
 }
 
 run_bilibili() {
