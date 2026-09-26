@@ -4,22 +4,24 @@ layout: home
 
 hero:
   name: ""
-  text: "为这个世界，\n做一名工程师。"
+  text: "为这个世界，做一名工程师。"
   tagline: 
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<style>
+/* hero 只剩一句话：横向居中（垂直位置不动），并给这句话加淡蓝底 */
+.VPHero .main {
+  width: 100%;
+}
+.VPHero .heading {
+  align-items: center;
+  text-align: center;
+}
+.VPHero .text {
+  max-width: none;
+  background: var(--vp-c-brand-soft);
+  padding: 0 0.3em;
+  border-radius: 10px;
+}
+</style>
 

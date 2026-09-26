@@ -20,9 +20,21 @@ function toCardItems(videos) {
 const toolVideos = toCardItems(archives.data['【工具】'])
 const junkVideos = toCardItems(archives.data['【捡垃圾】'])
 const murmurVideos = toCardItems(archives.data['【牛码碎碎念】'])
+const unboxVideos = toCardItems(archives.data['【开箱】'])
 </script>
 
 <div class="studio-page">
+
+  <div class="section-divider">
+    <span>🎮 娱乐</span>
+  </div>
+  <h2 class="channel-title">🗑️ 捡垃圾</h2>
+  <p class="channel-desc">记录各种二手好物、数码淘货的经历与心得。</p>
+  <VideoGrid :items="junkVideos" />
+
+  <h2 class="channel-title">📦 开箱</h2>
+  <p class="channel-desc">到手新品的第一时间开箱与初步体验。</p>
+  <VideoGrid :items="unboxVideos" />
 
   <div class="section-divider">
     <span>💻 技术</span>
@@ -35,13 +47,6 @@ const murmurVideos = toCardItems(archives.data['【牛码碎碎念】'])
   <p class="channel-desc">工作中的编程心得与日常碎碎念。</p>
   <VideoGrid v-if="murmurVideos.length" :items="murmurVideos" />
   <p v-else class="channel-empty">该栏目暂无视频，敬请期待</p>
-
-  <div class="section-divider">
-    <span>🎮 娱乐</span>
-  </div>
-  <h2 class="channel-title">🗑️ 捡垃圾</h2>
-  <p class="channel-desc">记录各种二手好物、数码淘货的经历与心得。</p>
-  <VideoGrid :items="junkVideos" />
 
 </div>
 
