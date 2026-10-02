@@ -6,12 +6,13 @@ title: 个人项目
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// 加一个项目 = 在下面数组里加一行；desc 是简述，repo 用来读 GitHub Releases
+// 加一个项目 = 在下面数组里加一行；desc 是简述，os 是支持的系统，repo 用来读 GitHub Releases
 const projects = [
   {
     name: 'more-effective-intrans',
     link: '/projects/more-effective-intrans',
     desc: '一个轻量的拼音转英文翻译器。',
+    os: 'Linux（X11）',
     repo: 'doraemon-hub-art/more-effective-intrans'
   }
 ]
@@ -74,6 +75,7 @@ function versionText(name) {
       <tr>
         <th>项目名</th>
         <th>简述</th>
+        <th>支持的系统</th>
         <th>最近一次更新</th>
         <th>最新版本</th>
       </tr>
@@ -82,6 +84,7 @@ function versionText(name) {
       <tr v-for="p in projects" :key="p.name">
         <td><a :href="p.link">{{ p.name }}</a></td>
         <td class="projects-desc">{{ p.desc }}</td>
+        <td>{{ p.os }}</td>
         <td>{{ updateText(p.name) }}</td>
         <td>{{ versionText(p.name) }}</td>
       </tr>
