@@ -7,13 +7,21 @@ title: 个人项目
 import { ref, onMounted } from 'vue'
 
 // 加一个项目 = 在下面数组里加一行；desc 是简述，os 是支持的系统，repo 用来读 GitHub Releases
+// link 指详情页（/projects/<slug>）或仓库地址
 const projects = [
   {
     name: 'more-effective-intrans',
     link: '/projects/more-effective-intrans',
-    desc: '一个轻量的拼音转英文翻译器。',
+    desc: '一个轻量的拼音转英文翻译器',
     os: 'Linux（X11）',
     repo: 'doraemon-hub-art/more-effective-intrans'
+  },
+  {
+    name: 'more-effective-logger',
+    link: 'https://github.com/doraemon-hub-art/more-effective-logger',
+    desc: '终端 & 日志查看工具',
+    os: 'Linux（X11）',
+    repo: 'doraemon-hub-art/more-effective-logger'
   }
 ]
 
@@ -75,8 +83,8 @@ function versionText(name) {
       <tr>
         <th>项目名</th>
         <th>简述</th>
-        <th>支持的系统</th>
-        <th>最近一次更新</th>
+        <th>支持系统</th>
+        <th>最近更新</th>
         <th>最新版本</th>
       </tr>
     </thead>
